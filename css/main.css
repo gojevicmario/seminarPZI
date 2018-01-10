@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@media (max-width: 12450px) { 
+    .parallax-container {
+        display: block;
+    }
+ }
 
 body {
     background-color: lightgreen;
@@ -21,9 +26,9 @@ body {
 
 .parallax-container{
     background-image: url("https://adriacamps.com/wp-content/uploads/2015/09/Dalmacija-Zadar-Pag-bridge.jpg");
-    height: auto;
     min-height: 350px;
     height: auto;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,6 +36,10 @@ body {
     background-color: transparent;
     margin:auto;
     overflow: hidden;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote{
@@ -43,12 +52,13 @@ body {
 }
 
 .map-frame{
-    display: block;
+
     height: auto;
     width: auto;
     min-height: 300px;
     min-width: 300px;
-    float:left;
+   
+    
 }
 
 ul {
@@ -67,6 +77,5 @@ ul {
 }
 
 .kontenjer{
-    float: right;
-    padding-right: 20%;
+    display: inline-block;
 }
