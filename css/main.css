@@ -44,7 +44,7 @@ max-height: 450px;
 }
 
 .quote{
-    font-size: 56pt;
+    font-size: 4em;
     font-family: 'Great Vibes', cursive;
     color:white;
     text-align: center;
@@ -81,4 +81,9 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.location-container,ul{
+    color:whitesmoke;
+    font-size: 1em;
 }
