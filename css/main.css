@@ -22,13 +22,15 @@ body {
 .parallax-container{
     background-image: url("https://adriacamps.com/wp-content/uploads/2015/09/Dalmacija-Zadar-Pag-bridge.jpg");
     height: auto;
-    height: 350px;
+    min-height: 350px;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
     margin:auto;
+    overflow: hidden;
 }
 
 .quote{
@@ -42,7 +44,11 @@ body {
 
 .map-frame{
     display: block;
-    float: left;
+    height: auto;
+    width: auto;
+    min-height: 300px;
+    min-width: 300px;
+    float:left;
 }
 
 ul {
@@ -60,6 +66,7 @@ ul {
     height: 500px;
 }
 
-.attractions-list,a{
-    color: white;
+.kontenjer{
+    float: right;
+    padding-right: 20%;
 }
