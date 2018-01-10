@@ -8,16 +8,23 @@ body {
     padding: 0;
 }
 
-.carousel-inner, img{
-    max-height: 400px;
+.carosuel,img{
+max-height: 450px;
 
 }
 
-#cards{
+.cards{
     width: 70%;
     margin: auto;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding:70px 0;
+}
+
+.cards-img{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    padding:70px 0;
 }
 
 .parallax-container{
@@ -33,9 +40,7 @@ body {
     margin:auto;
     overflow: hidden;
     display: inline-block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .quote{
@@ -72,6 +77,8 @@ ul {
     height: 500px;
 }
 
-.kontenjer{
-    display: inline-block;
+.location-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
