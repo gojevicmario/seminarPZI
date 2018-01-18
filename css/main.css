@@ -1,6 +1,6 @@
 
 body {
-    background-color: lightgreen;
+    background-color: #f3f3f3;
 }
 
 .container-fluid {
@@ -13,14 +13,21 @@ body {
     object-fit: cover;
 }
 
-
-
 .cards{
     width: 70%;
     margin: auto;
     padding:70px 0;
 }
-
+.card{
+    border: 0;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    font-size: 1.5rem;
+}
 .cards-img{
     display: flex;
     justify-content: center;
@@ -31,7 +38,7 @@ body {
 
 .parallax-container{
     background-image: url("https://adriacamps.com/wp-content/uploads/2015/09/Dalmacija-Zadar-Pag-bridge.jpg");
-    min-height: 450px;
+    min-height: 400px;
     height: auto;
     width: 100%;
     background-attachment: fixed;
@@ -44,14 +51,28 @@ body {
     display: inline-block;
     
 }
-
+.parallax-container2{
+    
+    background-image: url("http://architectureimg.com/wp-content/uploads/2016/06/houses-spectacular-seaside-home-houses-dakar-africa-million-infinity-pools-designer-modern-house-sea-view-terrace-pool-wide-resolution.jpg");
+    min-height: 400px;
+    height: auto;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    margin:auto;
+    overflow: hidden;
+    display: inline-block;
+}
 .quote{
     font-size: 4em;
     font-family: 'Great Vibes', cursive;
-    color:white;
+    color:rgb(5, 6, 7);
     text-align: center;
     vertical-align: middle;
-    line-height: 450px;
+    line-height: 400px;
 }
 
 .map-frame{
@@ -79,13 +100,33 @@ ul {
     height: 500px;
 }
 
-.location-container{
+#location-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.location-container,ul{
+#location-container,ul{
     color:whitesmoke;
     font-size: 1em;
+}
+
+#footer {
+    margin-top: 50px;
+    padding: 1rem 2rem;
+    color: white;
+}
+.fa-2x{
+    color: white;
+    vertical-align: middle;
+}
+.fa-2x{
+    margin: 1rem;
+}
+.fa-facebook:hover{
+    color:#3B5998;
+}
+.fa-instagram:hover{
+    color: #f09433; 
+    
 }
