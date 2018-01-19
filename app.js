@@ -1,6 +1,8 @@
 var express = require('express');
 var path = require('path');
 var app = express();
+var port= process.env.PORT || 8080
+
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname,'public')))
 
@@ -25,5 +27,5 @@ app.get('/contact', function(req, res) {
     res.render('pages/contact');
 });
 
-app.listen(8080);
+app.listen(port);
 console.log('8080 is the magic port');
