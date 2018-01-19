@@ -1,13 +1,25 @@
+
 .container{
-    padding: 50px 0;
+    padding: 100px 0;
+
     
 }
-
+.image-container{
+    width: 100%;
+    min-height: 400px;
+    background-position:left 40%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("/img/mix/pagBridge.jpg");
+}
 
 
 .description-image {
     display: block;
     margin: auto;
+    border-width:5px;
+    border-style:solid;
+    border-color:#343a40;   
 }
 .image{
     padding: 15px;
@@ -21,7 +33,7 @@
     padding-top: 1rem;
 }
 .paral{
-    background-image: url("/img/paralax.png");
+    background-image: url("/img/index/yardFilter.jpg");
     min-height: 400px;
     height: auto;
     width: 100%;
@@ -33,4 +45,13 @@
     margin:auto;
     overflow: hidden;
     display: inline-block;
+}
+.card-deck{
+    color:#343a40;
+}
+.pre-gallery{
+    background-color: transparent;
+    padding-top: 50px; 
+    text-align: center;
+    height: 400px;
 }

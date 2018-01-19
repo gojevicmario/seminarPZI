@@ -8,19 +8,18 @@ app.use(express.static(path.join(__dirname,'public')))
 
 app.get('/', function(req, res) {
     res.render('pages/index');
-    
 });
 
-app.get('/joseph', function(req, res) {
-    res.render('pages/joseph');
+app.get('/josip', function(req, res) {
+    res.render('pages/josip');
 });
 
-app.get('/stef', function(req, res) {
-    res.render('pages/stef');
+app.get('/jonatan', function(req, res) {
+    res.render('pages/jonatan');
 });
 
-app.get('/jozo', function(req, res) {
-    res.render('pages/jozo');
+app.get('/goga', function(req, res) {
+    res.render('pages/goga');
 });
 
 app.get('/contact', function(req, res) {
@@ -28,4 +27,4 @@ app.get('/contact', function(req, res) {
 });
 
 app.listen(process.env.PORT || 8888);
-console.log('8080 is the magic port');
+console.log('8888 is the magic port');
