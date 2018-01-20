@@ -1,12 +1,8 @@
 $(document).ready(function(){
-    var images = ["../img/mix/img-top.jpg","../img/mix/pagBridge.jpg","../img/mix/indoorHat.jpg"];
     var cnt=2;
-    //$(".next").click(function(){
-    //    ("#book").fadeOut("slow");
-    //});
     $( ".next" ).click(function() {
         $(".gallery-active").fadeOut("fast",function(){
-            $(this).attr("src","../img/josip/"+cnt+".jpg");
+            $(this).attr("src","../img/Josip/"+cnt+".jpg");
             $(this).fadeIn("slow");
             cnt++;
         });
@@ -15,7 +11,7 @@ $(document).ready(function(){
         });
     $(".prev").click(function(){
         $(".gallery-active").fadeOut("fast",function(){
-            $(this).attr("src","../img/josip/"+cnt+".jpg");
+            $(this).attr("src","../img/Josip/"+cnt+".jpg");
             $(this).fadeIn("slow");
             cnt--;
         });
