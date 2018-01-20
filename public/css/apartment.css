@@ -53,5 +53,24 @@
     background-color: transparent;
     padding-top: 50px; 
     text-align: center;
-    height: 400px;
+    height: auto;
+}
+
+.pic-frame{
+    background-color: transparent;
+}
+.pic-frame img {
+    height: 500px;
+    width: auto;
+    border: 3px solid black;
+    
+}
+.controls{
+    height: auto;
+    background-color: aqua;
+    padding: 50px 0;
+}
+.controls > div {
+    display: inline;
+    
 }
