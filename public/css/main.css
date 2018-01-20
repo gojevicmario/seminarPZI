@@ -152,7 +152,7 @@ ul {
 @media (max-width:720px){
     .parallax-container{
         height: 100%;
-        
+        line-height: 10rem;
     }
     .quote{
         font-size: 3rem;
