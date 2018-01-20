@@ -26,5 +26,9 @@ app.get('/contact', function(req, res) {
     res.render('pages/contact');
 });
 
+app.get('*', function (req,res){
+    res.render('pages/404');
+});
+
 app.listen(process.env.PORT || 8888);
 console.log('8888 is the magic port');
