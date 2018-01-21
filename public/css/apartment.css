@@ -10,11 +10,15 @@
     padding:0  15px ;
 }
 .image-container{
-    width: 100%;
     min-height: 400px;
-    background-position:left 40%;
-    background-size: 100%;
+    height: auto;
+    width: 100%;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:auto;
+    overflow: hidden;
+    display: inline-block;
     background-image: url("/img/mix/pagBridge.jpg");
 }
 
@@ -93,15 +97,15 @@
     padding-right: 15px;
     float: right;
 }
-.calendar {
-    padding: 50px 25px;
-    height: 350px;
-    background-color: red;
+p{
+    font-family: 'roboto',sans-serif;
+    font-size: 1rem;
 }
-@media(max-width:600px){
+@media(max-width:768px){
     .pic-frame img {
         width: 100%;
         height: auto;
         display: block;
         border: 3px solid black;
+    }
 }
