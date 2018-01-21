@@ -78,7 +78,7 @@ app.post('/send', function (req, res) {
         }
         console.log('Message sent: %s', info.messageId);
         console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-        res.render('email sent');
+        res.render('pages/josip');
     });
 });
 app.listen(process.env.PORT || 8888);
