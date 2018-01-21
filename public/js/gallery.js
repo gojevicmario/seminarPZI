@@ -1,5 +1,7 @@
 $(document).ready(function(){
     var cnt=1;
+    $(".gallery-active").attr("src","../img/Josip/"+cnt+".jpg");
+    });
     $( ".next" ).click(function() {
         $(".gallery-active").fadeOut("fast",function(){
             cnt++;
