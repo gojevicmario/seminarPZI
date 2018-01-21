@@ -77,9 +77,10 @@ body {
 .quote{
     font-size: 5rem;
     font-family: 'Great Vibes', cursive;
-    color: #343a40;
+    color: #f8f9fa;
+    text-shadow: 2px 2px #343a40;
     text-align: center;
-    font-weight: bold;
+    font-weight: 500;
     vertical-align: middle;
     line-height: 400px;
 }
