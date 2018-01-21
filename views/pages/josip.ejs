@@ -3,18 +3,16 @@
 
 <head>
     <%  include ../partials/head %>
-        <link rel="stylesheet" href="/css/apartment.css">
+    <link rel="stylesheet" href="/css/apartment.css">
 </head>
 
 <body>
 
-        
+    <%  include ../partials/header %>
     <div class="container-fluid">
-        <%  include ../partials/header %>
-        
             <div class="paral">
-                    <div class="image-container">
-                        </div>
+                <div class="image-container">
+                </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 image">
@@ -22,9 +20,9 @@
                         </div>
                         <div class="col-lg-8">
                             <h3>Apartment Josip</h3>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas a, amet, quo asperiores voluptatum
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas a, amet, quo asperiores voluptatum
                                 corrupti officiis dolorem saepe veniam nam id beatae fugiat ad reiciendis? Quo commodi voluptas
-                                possimus saepe.</span>
+                                possimus saepe.</p>
                             <div class="card-deck">
                                 <div class="card bg-transparent">
                                     <div class="card-body">
@@ -89,16 +87,20 @@
             </div>
             <div class="pre-gallery">
                 <div class="pic-frame">
-                    <img id="book" class="gallery-active" src="../img/mix/indoorHat.jpg" alt="image">
-                            <div class="prev"><i class="far fa-caret-square-left fa-3x"></i></div>
-                            <div class="next"><i class="far fa-caret-square-right fa-3x"></i></div>
+                    <img class="gallery-active" src="../img/josip/1.jpg" alt="image">
+                    <div class="controls">
+                        <div class="prev">
+                            <i class="fa fa-caret-square-left fa-3x"></i>
+                        </div>
+                        <div class="next">
+                            <i class="fa fa-caret-square-right fa-3x"></i>
+                        </div>
                     </div>
                 </div>
-                
+            </div>
             </div>
     </div>
-
-
+    </div>
     <%  include ../partials/footer%>
     <%  include ../partials/scripts%>
     <script src="../js/gallery.js"></script>

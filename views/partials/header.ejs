@@ -11,21 +11,56 @@
         </a>
       </li>
       <li class="nav-item">
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-                 href="#!" role="button" aria-haspopup="true" aria-expanded="false">
-                 Apartments</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="/josip">Apartment Josip</a>
-                <a class="dropdown-item" href="/jonatan">Apartment Jonatan</a>
-                <a class="dropdown-item" href="/goga">Apartment Goga</a>
-              </div>
-              </li>
-      </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!" role="button" aria-haspopup="true" aria-expanded="false">
+            Apartments</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/josip">Apartment Josip</a>
+            <a class="dropdown-item" href="/jonatan">Apartment Jonatan</a>
+            <a class="dropdown-item" href="/goga">Apartment Goga</a>
+          </div>
+        </li>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#location-container">Location</a>
+        <a class="nav-link" href="/#location-container">Location</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#contact" href="#">Contact</a>
+
+
       </li>
     </ul>
   </div>
 </nav>
+<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactLabel">Contact us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="send" method="POST" >
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="email">Your email</label>
+            <input type="email" name="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="message">Your message</label>
+            <textarea class="form-control" name="message" id="message-box" rows="3"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </div>
+        </form>
+      </div>  
+    </div>
+  </div>
+</div>

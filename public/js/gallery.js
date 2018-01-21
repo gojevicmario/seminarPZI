@@ -3,7 +3,7 @@ $(document).ready(function(){
     $( ".next" ).click(function() {
         $(".gallery-active").fadeOut("fast",function(){
             $(this).attr("src","../img/Josip/"+cnt+".jpg");
-            $(this).fadeIn("slow");
+            $(this).fadeIn("fast");
             cnt++;
         });
         if(cnt>6)
@@ -12,11 +12,11 @@ $(document).ready(function(){
     $(".prev").click(function(){
         $(".gallery-active").fadeOut("fast",function(){
             $(this).attr("src","../img/Josip/"+cnt+".jpg");
-            $(this).fadeIn("slow");
+            $(this).fadeIn("fast");
             cnt--;
         });
-        if(cnt < 0)
-            cnt=1;
+        if(cnt < 1)
+            cnt=6;
     });
 
 });

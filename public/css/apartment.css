@@ -1,8 +1,13 @@
 
-.container{
-    padding: 100px 0;
+.container > .row{
     color: #f8f9fa;
     
+}
+.paral> .container {
+    padding: 50px 0;
+}
+.container  .col-lg-8 p,h3 {
+    padding:0  15px ;
 }
 .image-container{
     width: 100%;
@@ -60,17 +65,43 @@
     background-color: transparent;
 }
 .pic-frame img {
-    height: 500px;
+    height: 600px;
     width: auto;
     border: 3px solid black;
     
 }
 .controls{
-    height: auto;
-    background-color: aqua;
-    padding: 50px 0;
+    height: 50px;
+    width: 350px;
+    margin: 0 auto;
 }
 .controls > div {
-    display: inline;
-    
+    display: inline-block;
+}
+.prev{
+    float: left;
+    padding-left: 15px;
+}
+
+.prev:hover{
+    color: #007bff;
+}
+.next:hover{
+    color: #007bff;
+}
+.next{
+    padding-right: 15px;
+    float: right;
+}
+.calendar {
+    padding: 50px 25px;
+    height: 350px;
+    background-color: red;
+}
+@media(max-width:600px){
+    .pic-frame img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border: 3px solid black;
 }
