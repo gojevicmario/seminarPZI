@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <% include ../partials/header %>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="/css/404.css">            
 </head>
+
 <body>
-        <% include ../partials/head %>
-        <img src="../img/index/source.gif" alt="">
+    <% include ../partials/header %>
+    <div class="gif">
+        <h3>Oooooops. The site you requested does not exist :(</h3>
+        <img src="../img/mix/404.gif" alt="404">
+    </div>
+            
         <% include ../partials/footer %>
-        <% include ../partials/scripts %>
+         <% include ../partials/scripts %>
 </body>
+
 </html>

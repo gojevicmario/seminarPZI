@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var cnt=2;
+    var cnt=1;
     $( ".next" ).click(function() {
         $(".gallery-active").fadeOut("fast",function(){
             cnt++;

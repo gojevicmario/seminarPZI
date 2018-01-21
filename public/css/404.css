@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+.gif{
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 50%;
+}
+h3 {
+    padding-bottom: 50px;
+    font-size: 3rem;
+    color: #20c20e;
+    font-family: 'VT323', monospace;
+}
