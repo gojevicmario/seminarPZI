@@ -1,14 +1,27 @@
 body{
     background-color: black;
 }
-.gif{
+.container .four{
     padding-top: 100px;
+    display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
 }
-h3 {
-    padding-bottom: 50px;
+.h3-404 {
+    padding: 50px;
     font-size: 3rem;
     color: #20c20e;
     font-family: 'VT323', monospace;
+}
+img.gif{
+    display: block;
+    margin: 0 auto;
+    }
+@media (max-width:760px){
+    img.gif{
+        width: 300px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        }
 }
