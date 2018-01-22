@@ -30,10 +30,6 @@ app.get('/goga', function (req, res) {
     res.render('pages/goga');
 });
 
-app.get('/contact', function (req, res) {
-    res.render('partials/contact');
-});
-
 app.get('*', function (req, res) {
     res.render('pages/404');
 });
@@ -78,7 +74,7 @@ app.post('/send', function (req, res) {
         }
         console.log('Message sent: %s', info.messageId);
         console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-        res.render('pages/josip');
+        res.render('pages/success');
     });
 });
 app.listen(process.env.PORT || 8888);
