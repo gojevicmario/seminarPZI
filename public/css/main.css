@@ -153,7 +153,17 @@ ul {
     color: #f8f9fa;
     padding-bottom: 15px;
 }
-
+.image-text {
+    font-size: 5rem;
+    font-family: 'Great Vibes', cursive;
+    color: #f8f9fa;
+    text-shadow: 2px 2px #343a40;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 @media (max-width:720px){
     .parallax-container{
