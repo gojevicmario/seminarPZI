@@ -30,6 +30,10 @@ app.get('/goga', function (req, res) {
     res.render('pages/goga');
 });
 
+app.get('/origin-cv', function(req,res){
+    res.render('pages/cv-landing')
+})
+
 app.get('*', function (req, res) {
     res.render('pages/404');
 });
